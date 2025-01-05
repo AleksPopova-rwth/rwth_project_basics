@@ -1,0 +1,8 @@
+<map id="Buch.h" name="Buch.h">
+<area shape="rect" id="node1" title="Declaration of the Buch class, which represents a book." alt="" coords="67,5,133,32"/>
+<area shape="rect" id="node2" href="$Medium_8h.html" title="Declaration of the Medium class and its related functionality." alt="" coords="57,80,143,107"/>
+<area shape="rect" id="node3" href="$Datum_8h.html" title="Declaration of the Datum class and its related functionality." alt="" coords="22,229,101,256"/>
+<area shape="rect" id="node6" href="$Person_8h.html" title="Declaration of the Person class and its related functionality." alt="" coords="99,155,178,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="109,304,168,331"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,304,85,331"/>
+</map>

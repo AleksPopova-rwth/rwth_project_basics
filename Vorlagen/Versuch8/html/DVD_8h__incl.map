@@ -1,0 +1,8 @@
+<map id="DVD.h" name="DVD.h">
+<area shape="rect" id="node1" title="Declaration of the DVD class, which represents a DVD." alt="" coords="123,5,186,32"/>
+<area shape="rect" id="node2" href="$Medium_8h.html" title="Declaration of the Medium class and its related functionality." alt="" coords="71,80,158,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="109,304,168,331"/>
+<area shape="rect" id="node3" href="$Datum_8h.html" title="Declaration of the Datum class and its related functionality." alt="" coords="14,229,93,256"/>
+<area shape="rect" id="node6" href="$Person_8h.html" title="Declaration of the Person class and its related functionality." alt="" coords="79,155,158,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,304,85,331"/>
+</map>

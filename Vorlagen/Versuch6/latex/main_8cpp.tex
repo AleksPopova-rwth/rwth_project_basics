@@ -1,0 +1,231 @@
+\hypertarget{main_8cpp}{}\doxysection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+
+
+Schreibt die Daten aus studenten\+Liste in die angegebene Datei.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}Student.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$iterator$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a3490fb8adcbe45c2b4410494ee7e30a7}{rewrite\+Text\+File}} (const std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten\+Liste, std\+::string \&dateiname)
+\begin{DoxyCompactList}\small\item\em Schreibt die Daten aus studenten\+Liste in die angegebene Datei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ab32dfa0885c34200882c57e0586e31af}{datenelement\+Hinten\+Hinzufuegen}} (std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten\+Liste)
+\begin{DoxyCompactList}\small\item\em Fügt ein Datenelement am Ende der studenten\+Liste hinzu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ad34605eaa052cbcc48dcf2fd2af38fb6}{datenelement\+Hinten\+Loeschen}} (std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten\+Liste)
+\begin{DoxyCompactList}\small\item\em Löscht das letzte Datenelement aus der studenten\+Liste. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a32290012fb4ea8bcea8836e9642dee67}{datenelement\+Vorne\+Loeschen}} (std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten\+Liste)
+\begin{DoxyCompactList}\small\item\em Löscht das erste Datenelement aus der Datei und gibt es aus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a96665f8676dcd09c2e3310795ea59727}{daten\+Einlesen}} (std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten\+Liste, std\+::string \&dateiname)
+\begin{DoxyCompactList}\small\item\em Liest Daten aus der angegebenen Datei in die studenten\+Liste ein. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a58cc62a1e6f1e1729e703e0dc07f98a3}{daten\+Vorne\+Hinzufuegen}} (const \mbox{\hyperlink{classStudent}{Student}} \&new\+Student, std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten\+Liste)
+\begin{DoxyCompactList}\small\item\em Fügt ein Datenelement am Anfang der studenten\+Liste hinzu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a0b2e625b72749ad932d9ba4df52dbb0b}{datenbank\+Ausgeben}} (std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten\+Liste)
+\begin{DoxyCompactList}\small\item\em Gibt die gesamte studenten\+Liste aus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a931eb7344b184b762236b231097f6923}{daten\+Speichern}} (const std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten, const std\+::string \&dateiname)
+\begin{DoxyCompactList}\small\item\em Speichert die Daten aus studenten in die angegebene Datei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a70101f9b25c384d5e35211b5b4770a2f}{daten\+Einfuegen}} (std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten, const \mbox{\hyperlink{classStudent}{Student}} \&student, size\+\_\+t position)
+\begin{DoxyCompactList}\small\item\em Fügt ein Datenelement an der angegebenen Position in studenten ein. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a002ef6c46556d7345e275ce3f4a469a6}{daten\+Loeschen}} (std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten, int mat\+Nr)
+\begin{DoxyCompactList}\small\item\em Löscht das Datenelement mit der angegebenen Matrikelnummer aus studenten. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ad74cd5434d6e291cc492017953773502}{datenbank\+In\+Umgekehrter\+Reihenfolge\+Ausgeben}} (std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&studenten)
+\begin{DoxyCompactList}\small\item\em Gibt die Datenbank in umgekehrter Reihenfolge aus. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Schreibt die Daten aus studenten\+Liste in die angegebene Datei. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a0b2e625b72749ad932d9ba4df52dbb0b}\label{main_8cpp_a0b2e625b72749ad932d9ba4df52dbb0b}} 
+\index{main.cpp@{main.cpp}!datenbankAusgeben@{datenbankAusgeben}}
+\index{datenbankAusgeben@{datenbankAusgeben}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenbankAusgeben()}{datenbankAusgeben()}}
+{\footnotesize\ttfamily void datenbank\+Ausgeben (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten\+Liste }\end{DoxyParamCaption})}
+
+
+
+Gibt die gesamte studenten\+Liste aus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studenten\+Liste} & Die Liste der Studenten, die ausgegeben werden soll. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_ad74cd5434d6e291cc492017953773502}\label{main_8cpp_ad74cd5434d6e291cc492017953773502}} 
+\index{main.cpp@{main.cpp}!datenbankInUmgekehrterReihenfolgeAusgeben@{datenbankInUmgekehrterReihenfolgeAusgeben}}
+\index{datenbankInUmgekehrterReihenfolgeAusgeben@{datenbankInUmgekehrterReihenfolgeAusgeben}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenbankInUmgekehrterReihenfolgeAusgeben()}{datenbankInUmgekehrterReihenfolgeAusgeben()}}
+{\footnotesize\ttfamily void datenbank\+In\+Umgekehrter\+Reihenfolge\+Ausgeben (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten }\end{DoxyParamCaption})}
+
+
+
+Gibt die Datenbank in umgekehrter Reihenfolge aus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studenten\+Liste} & Die Liste der Studenten, die in umgekehrter Reihenfolge ausgegeben werden soll. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a70101f9b25c384d5e35211b5b4770a2f}\label{main_8cpp_a70101f9b25c384d5e35211b5b4770a2f}} 
+\index{main.cpp@{main.cpp}!datenEinfuegen@{datenEinfuegen}}
+\index{datenEinfuegen@{datenEinfuegen}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenEinfuegen()}{datenEinfuegen()}}
+{\footnotesize\ttfamily void daten\+Einfuegen (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten,  }\item[{const \mbox{\hyperlink{classStudent}{Student}} \&}]{student,  }\item[{size\+\_\+t}]{position }\end{DoxyParamCaption})}
+
+
+
+Fügt ein Datenelement an der angegebenen Position in studenten ein. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studenten} & Die Liste der Studenten. \\
+\hline
+{\em student} & Das neue Studentenobjekt, das eingefügt werden soll. \\
+\hline
+{\em position} & Die Position, an der das Datenelement eingefügt werden soll. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a96665f8676dcd09c2e3310795ea59727}\label{main_8cpp_a96665f8676dcd09c2e3310795ea59727}} 
+\index{main.cpp@{main.cpp}!datenEinlesen@{datenEinlesen}}
+\index{datenEinlesen@{datenEinlesen}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenEinlesen()}{datenEinlesen()}}
+{\footnotesize\ttfamily void daten\+Einlesen (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten\+Liste,  }\item[{std\+::string \&}]{dateiname }\end{DoxyParamCaption})}
+
+
+
+Liest Daten aus der angegebenen Datei in die studenten\+Liste ein. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studenten\+Liste} & Die Liste der Studenten, in die die Daten eingelesen werden. \\
+\hline
+{\em dateiname} & Der Name der Datei, aus der gelesen wird. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_ab32dfa0885c34200882c57e0586e31af}\label{main_8cpp_ab32dfa0885c34200882c57e0586e31af}} 
+\index{main.cpp@{main.cpp}!datenelementHintenHinzufuegen@{datenelementHintenHinzufuegen}}
+\index{datenelementHintenHinzufuegen@{datenelementHintenHinzufuegen}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenelementHintenHinzufuegen()}{datenelementHintenHinzufuegen()}}
+{\footnotesize\ttfamily void datenelement\+Hinten\+Hinzufuegen (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten\+Liste }\end{DoxyParamCaption})}
+
+
+
+Fügt ein Datenelement am Ende der studenten\+Liste hinzu. 
+
+Benutzer wird zur Eingabe von Name, Geburtsdatum, Adresse und Matrikelnummer aufgefordert. Das neue Datenelement wird auch in die Datei geschrieben.
+
+
+\begin{DoxyParams}{Parameters}
+{\em studenten\+Liste} & Die Liste der Studenten. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_ad34605eaa052cbcc48dcf2fd2af38fb6}\label{main_8cpp_ad34605eaa052cbcc48dcf2fd2af38fb6}} 
+\index{main.cpp@{main.cpp}!datenelementHintenLoeschen@{datenelementHintenLoeschen}}
+\index{datenelementHintenLoeschen@{datenelementHintenLoeschen}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenelementHintenLoeschen()}{datenelementHintenLoeschen()}}
+{\footnotesize\ttfamily void datenelement\+Hinten\+Loeschen (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten\+Liste }\end{DoxyParamCaption})}
+
+
+
+Löscht das letzte Datenelement aus der studenten\+Liste. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studenten\+Liste} & Die Liste der Studenten. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a32290012fb4ea8bcea8836e9642dee67}\label{main_8cpp_a32290012fb4ea8bcea8836e9642dee67}} 
+\index{main.cpp@{main.cpp}!datenelementVorneLoeschen@{datenelementVorneLoeschen}}
+\index{datenelementVorneLoeschen@{datenelementVorneLoeschen}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenelementVorneLoeschen()}{datenelementVorneLoeschen()}}
+{\footnotesize\ttfamily void datenelement\+Vorne\+Loeschen (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten\+Liste }\end{DoxyParamCaption})}
+
+
+
+Löscht das erste Datenelement aus der Datei und gibt es aus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dateiname} & Der Name der Datei, aus der gelesen und gelöscht wird. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a002ef6c46556d7345e275ce3f4a469a6}\label{main_8cpp_a002ef6c46556d7345e275ce3f4a469a6}} 
+\index{main.cpp@{main.cpp}!datenLoeschen@{datenLoeschen}}
+\index{datenLoeschen@{datenLoeschen}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenLoeschen()}{datenLoeschen()}}
+{\footnotesize\ttfamily void daten\+Loeschen (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten,  }\item[{int}]{mat\+Nr }\end{DoxyParamCaption})}
+
+
+
+Löscht das Datenelement mit der angegebenen Matrikelnummer aus studenten. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studenten} & Die Liste der Studenten. \\
+\hline
+{\em mat\+Nr} & Die Matrikelnummer des zu löschenden Studenten. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a931eb7344b184b762236b231097f6923}\label{main_8cpp_a931eb7344b184b762236b231097f6923}} 
+\index{main.cpp@{main.cpp}!datenSpeichern@{datenSpeichern}}
+\index{datenSpeichern@{datenSpeichern}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenSpeichern()}{datenSpeichern()}}
+{\footnotesize\ttfamily void daten\+Speichern (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten,  }\item[{const std\+::string \&}]{dateiname }\end{DoxyParamCaption})}
+
+
+
+Speichert die Daten aus studenten in die angegebene Datei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studenten} & Die Liste der Studenten, deren Daten gespeichert werden sollen. \\
+\hline
+{\em dateiname} & Der Name der Datei, in die gespeichert werden soll. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a58cc62a1e6f1e1729e703e0dc07f98a3}\label{main_8cpp_a58cc62a1e6f1e1729e703e0dc07f98a3}} 
+\index{main.cpp@{main.cpp}!datenVorneHinzufuegen@{datenVorneHinzufuegen}}
+\index{datenVorneHinzufuegen@{datenVorneHinzufuegen}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{datenVorneHinzufuegen()}{datenVorneHinzufuegen()}}
+{\footnotesize\ttfamily void daten\+Vorne\+Hinzufuegen (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classStudent}{Student}} \&}]{new\+Student,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten\+Liste }\end{DoxyParamCaption})}
+
+
+
+Fügt ein Datenelement am Anfang der studenten\+Liste hinzu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Student} & Das neue Studentenobjekt, das hinzugefügt werden soll. \\
+\hline
+{\em studenten\+Liste} & Die Liste der Studenten. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a3490fb8adcbe45c2b4410494ee7e30a7}\label{main_8cpp_a3490fb8adcbe45c2b4410494ee7e30a7}} 
+\index{main.cpp@{main.cpp}!rewriteTextFile@{rewriteTextFile}}
+\index{rewriteTextFile@{rewriteTextFile}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{rewriteTextFile()}{rewriteTextFile()}}
+{\footnotesize\ttfamily void rewrite\+Text\+File (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{studenten\+Liste,  }\item[{std\+::string \&}]{dateiname }\end{DoxyParamCaption})}
+
+
+
+Schreibt die Daten aus studenten\+Liste in die angegebene Datei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studenten\+Liste} & Die Liste der Studenten. \\
+\hline
+{\em dateiname} & Der Name der Datei, in die geschrieben werden soll. \\
+\hline
+\end{DoxyParams}

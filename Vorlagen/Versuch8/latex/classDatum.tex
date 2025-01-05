@@ -1,0 +1,161 @@
+\hypertarget{classDatum}{}\doxysection{Datum Class Reference}
+\label{classDatum}\index{Datum@{Datum}}
+
+
+Class representing a date.  
+
+
+
+
+{\ttfamily \#include $<$Datum.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDatum_ae1880ae165f7a4aef90be6e8cfaa5ff5}{Datum}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum_a8e2f4d6932cea13001329c35930ce80e}{Datum}} (int init\+Tag, int init\+Monat, int init\+Jahr)
+\begin{DoxyCompactList}\small\item\em Constructor for a specific date. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDatum_ad539a3b7f208ea2d10bba6f496374b1d}\label{classDatum_ad539a3b7f208ea2d10bba6f496374b1d}} 
+\mbox{\hyperlink{classDatum_ad539a3b7f208ea2d10bba6f496374b1d}{$\sim$\+Datum}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{classDatum}{Datum}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDatum_a41c676d7d87f3382500ff3b92e81bbe4}{eingabe}} (std\+::istream \&in)
+\begin{DoxyCompactList}\small\item\em Input function for a date using an input stream. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDatum_acfcbb5c16efc6a23e7d6941405332bef}{ausgabe}} (std\+::ostream \&out) const
+\begin{DoxyCompactList}\small\item\em Output function for a date using an output stream. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum}{Datum}} \& \mbox{\hyperlink{classDatum_ae083121165ba9b060bab456f156ef4df}{operator=}} (\mbox{\hyperlink{classDatum}{Datum}} \&d)
+\begin{DoxyCompactList}\small\item\em Assignment operator for \mbox{\hyperlink{classDatum}{Datum}} objects. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classDatum_a8e9f8000e2869bacbf1cac80ac2ff7ee}{operator-\/}} (const \mbox{\hyperlink{classDatum}{Datum}} d) const
+\begin{DoxyCompactList}\small\item\em Subtraction operator for \mbox{\hyperlink{classDatum}{Datum}} objects. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum}{Datum}} \mbox{\hyperlink{classDatum_ab580376d6838d4b3176606b061d7fe74}{operator+}} (const int anzahl\+Tage) const
+\begin{DoxyCompactList}\small\item\em Addition operator for \mbox{\hyperlink{classDatum}{Datum}} objects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing a date. 
+
+This class stores a date consisting of day, month, and year. The \mbox{\hyperlink{classDatum}{Datum}} class provides various functionalities/operators for outputting, editing, and comparing different dates. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDatum_ae1880ae165f7a4aef90be6e8cfaa5ff5}\label{classDatum_ae1880ae165f7a4aef90be6e8cfaa5ff5}} 
+\index{Datum@{Datum}!Datum@{Datum}}
+\index{Datum@{Datum}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{Datum()}{Datum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Datum\+::\+Datum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+Initializes the \mbox{\hyperlink{classDatum}{Datum}} class with today\textquotesingle{}s date. \mbox{\Hypertarget{classDatum_a8e2f4d6932cea13001329c35930ce80e}\label{classDatum_a8e2f4d6932cea13001329c35930ce80e}} 
+\index{Datum@{Datum}!Datum@{Datum}}
+\index{Datum@{Datum}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{Datum()}{Datum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Datum\+::\+Datum (\begin{DoxyParamCaption}\item[{int}]{init\+Tag,  }\item[{int}]{init\+Monat,  }\item[{int}]{init\+Jahr }\end{DoxyParamCaption})}
+
+
+
+Constructor for a specific date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em init\+Tag} & The given day. \\
+\hline
+{\em init\+Monat} & The given month. \\
+\hline
+{\em init\+Jahr} & The given year. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDatum_acfcbb5c16efc6a23e7d6941405332bef}\label{classDatum_acfcbb5c16efc6a23e7d6941405332bef}} 
+\index{Datum@{Datum}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily void Datum\+::ausgabe (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption}) const}
+
+
+
+Output function for a date using an output stream. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & The output stream for writing output. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDatum_a41c676d7d87f3382500ff3b92e81bbe4}\label{classDatum_a41c676d7d87f3382500ff3b92e81bbe4}} 
+\index{Datum@{Datum}!eingabe@{eingabe}}
+\index{eingabe@{eingabe}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{eingabe()}{eingabe()}}
+{\footnotesize\ttfamily void Datum\+::eingabe (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in }\end{DoxyParamCaption})}
+
+
+
+Input function for a date using an input stream. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in} & The input stream for reading input. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDatum_ab580376d6838d4b3176606b061d7fe74}\label{classDatum_ab580376d6838d4b3176606b061d7fe74}} 
+\index{Datum@{Datum}!operator+@{operator+}}
+\index{operator+@{operator+}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDatum}{Datum}} Datum\+::operator+ (\begin{DoxyParamCaption}\item[{const int}]{anzahl\+Tage }\end{DoxyParamCaption}) const}
+
+
+
+Addition operator for \mbox{\hyperlink{classDatum}{Datum}} objects. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em anzahl\+Tage} & Number of days to add to the current date. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classDatum}{Datum}} The modified date after adding the specified number of days. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatum_a8e9f8000e2869bacbf1cac80ac2ff7ee}\label{classDatum_a8e9f8000e2869bacbf1cac80ac2ff7ee}} 
+\index{Datum@{Datum}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily int Datum\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classDatum}{Datum}}}]{d }\end{DoxyParamCaption}) const}
+
+
+
+Subtraction operator for \mbox{\hyperlink{classDatum}{Datum}} objects. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & The \mbox{\hyperlink{classDatum}{Datum}} object on the right-\/hand side. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int The difference between the two dates in months. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDatum_ae083121165ba9b060bab456f156ef4df}\label{classDatum_ae083121165ba9b060bab456f156ef4df}} 
+\index{Datum@{Datum}!operator=@{operator=}}
+\index{operator=@{operator=}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDatum}{Datum}} \& Datum\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classDatum}{Datum}} \&}]{d }\end{DoxyParamCaption})}
+
+
+
+Assignment operator for \mbox{\hyperlink{classDatum}{Datum}} objects. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & The \mbox{\hyperlink{classDatum}{Datum}} object on the right-\/hand side of the assignment. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classDatum}{Datum}}\& Reference to the assigned \mbox{\hyperlink{classDatum}{Datum}} object. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Datum_8h}{Datum.\+h}}\item 
+\mbox{\hyperlink{Datum_8cpp}{Datum.\+cpp}}\end{DoxyCompactItemize}

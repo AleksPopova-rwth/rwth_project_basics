@@ -1,0 +1,6 @@
+<map id="Medium" name="Medium">
+<area shape="rect" id="node1" title="Base class for all types of media." alt="" coords="73,5,147,32"/>
+<area shape="rect" id="node2" href="$classBuch.html" title="Represents a book, inheriting from the Medium class." alt="" coords="5,80,60,107"/>
+<area shape="rect" id="node3" href="$classDVD.html" title="Represents a DVD, inheriting from the Medium class." alt="" coords="85,80,135,107"/>
+<area shape="rect" id="node4" href="$classMagazin.html" title="Represents a magazine, inheriting from the Medium class." alt="" coords="159,80,237,107"/>
+</map>

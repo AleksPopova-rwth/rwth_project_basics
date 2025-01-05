@@ -1,0 +1,5 @@
+<map id="Medium" name="Medium">
+<area shape="rect" id="node1" title="Base class for all types of media." alt="" coords="81,95,156,121"/>
+<area shape="rect" id="node2" href="$classPerson.html" title="Class representing a person." alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node3" href="$classDatum.html" title="Class representing a date." alt="" coords="165,5,232,32"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Datum.h" name="Datum.h">
+<area shape="rect" id="node1" title="Declaration of the Datum class and its related functionality." alt="" coords="145,5,224,32"/>
+<area shape="rect" id="node2" href="$Datum_8cpp.html" title=" " alt="" coords="54,80,147,107"/>
+<area shape="rect" id="node3" href="$Medium_8h.html" title="Declaration of the Medium class and its related functionality." alt="" coords="141,155,228,181"/>
+<area shape="rect" id="node10" href="$Person_8h.html" title="Declaration of the Person class and its related functionality." alt="" coords="223,80,301,107"/>
+<area shape="rect" id="node4" href="$Buch_8h.html" title="Declaration of the Buch class, which represents a book." alt="" coords="13,229,79,256"/>
+<area shape="rect" id="node6" href="$DVD_8h.html" title="Declaration of the DVD class, which represents a DVD." alt="" coords="104,229,167,256"/>
+<area shape="rect" id="node7" href="$Magazin_8h.html" title="Declaration of the Magazin class, which represents a magazine." alt="" coords="191,229,280,256"/>
+<area shape="rect" id="node9" href="$Medium_8cpp.html" title=" " alt="" coords="304,229,407,256"/>
+<area shape="rect" id="node5" href="$Buch_8cpp.html" title="Implementation of methods." alt="" coords="5,304,87,331"/>
+<area shape="rect" id="node8" href="$Magazin_8cpp.html" title="Implementation of methods.." alt="" coords="183,304,287,331"/>
+<area shape="rect" id="node11" href="$Person_8cpp.html" title=" " alt="" coords="253,155,346,181"/>
+</map>

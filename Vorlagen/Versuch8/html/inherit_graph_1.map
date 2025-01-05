@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classMedium.html" title="Base class for all types of media." alt="" coords="5,56,80,83"/>
+<area shape="rect" id="node2" href="$classBuch.html" title="Represents a book, inheriting from the Medium class." alt="" coords="139,5,194,32"/>
+<area shape="rect" id="node3" href="$classDVD.html" title="Represents a DVD, inheriting from the Medium class." alt="" coords="141,56,192,83"/>
+<area shape="rect" id="node4" href="$classMagazin.html" title="Represents a magazine, inheriting from the Medium class." alt="" coords="128,107,205,133"/>
+</map>

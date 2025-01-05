@@ -1,0 +1,114 @@
+\hypertarget{classDVD}{}\doxysection{DVD Class Reference}
+\label{classDVD}\index{DVD@{DVD}}
+
+
+Represents a \mbox{\hyperlink{classDVD}{DVD}}, inheriting from the \mbox{\hyperlink{classMedium}{Medium}} class.  
+
+
+
+
+{\ttfamily \#include $<$DVD.\+h$>$}
+
+
+
+Inheritance diagram for DVD\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{classDVD__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for DVD\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{classDVD__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDVD_aa97609c2c72c1206ba9c2ea868b97a2e}{DVD}} (std\+::string init\+Titel, int init\+Altersfreigabe, std\+::string init\+Genre)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classDVD}{DVD}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDVD_a9ccced7d4e90a56955104797d1751c78}{ausgabe}} () const override
+\begin{DoxyCompactList}\small\item\em Outputs information about the \mbox{\hyperlink{classDVD}{DVD}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classDVD_a70c30e0b6b96df84fdaae5a8cb069ef4}{ausleihen}} (\mbox{\hyperlink{classPerson}{Person}} person, \mbox{\hyperlink{classDatum}{Datum}} ausleihdatum) override
+\begin{DoxyCompactList}\small\item\em Overrides the ausleihen method to support DVD-\/specific borrowing logic. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDVD_ac930d61c8e18a1adee751e9b53e29073}\label{classDVD_ac930d61c8e18a1adee751e9b53e29073}} 
+virtual \mbox{\hyperlink{classDVD_ac930d61c8e18a1adee751e9b53e29073}{$\sim$\+DVD}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{classDVD}{DVD}} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Represents a \mbox{\hyperlink{classDVD}{DVD}}, inheriting from the \mbox{\hyperlink{classMedium}{Medium}} class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDVD_aa97609c2c72c1206ba9c2ea868b97a2e}\label{classDVD_aa97609c2c72c1206ba9c2ea868b97a2e}} 
+\index{DVD@{DVD}!DVD@{DVD}}
+\index{DVD@{DVD}!DVD@{DVD}}
+\doxysubsubsection{\texorpdfstring{DVD()}{DVD()}}
+{\footnotesize\ttfamily DVD\+::\+DVD (\begin{DoxyParamCaption}\item[{std\+::string}]{init\+Titel,  }\item[{int}]{init\+Altersfreigabe,  }\item[{std\+::string}]{init\+Genre }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classDVD}{DVD}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em init\+Titel} & The title of the \mbox{\hyperlink{classDVD}{DVD}}. \\
+\hline
+{\em init\+Altersfreigabe} & The age rating of the \mbox{\hyperlink{classDVD}{DVD}}. \\
+\hline
+{\em init\+Genre} & The genre of the \mbox{\hyperlink{classDVD}{DVD}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDVD_a9ccced7d4e90a56955104797d1751c78}\label{classDVD_a9ccced7d4e90a56955104797d1751c78}} 
+\index{DVD@{DVD}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!DVD@{DVD}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily void DVD\+::ausgabe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Outputs information about the \mbox{\hyperlink{classDVD}{DVD}}. 
+
+Overrides the ausgabe method from the \mbox{\hyperlink{classMedium}{Medium}} class to output specific information about the \mbox{\hyperlink{classDVD}{DVD}}, including its title, age rating, and genre. 
+
+Implements \mbox{\hyperlink{classMedium_a4ef72a6165d29497d26d0825a0f3b486}{Medium}}.
+
+\mbox{\Hypertarget{classDVD_a70c30e0b6b96df84fdaae5a8cb069ef4}\label{classDVD_a70c30e0b6b96df84fdaae5a8cb069ef4}} 
+\index{DVD@{DVD}!ausleihen@{ausleihen}}
+\index{ausleihen@{ausleihen}!DVD@{DVD}}
+\doxysubsubsection{\texorpdfstring{ausleihen()}{ausleihen()}}
+{\footnotesize\ttfamily bool DVD\+::ausleihen (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}}}]{person,  }\item[{\mbox{\hyperlink{classDatum}{Datum}}}]{ausleihdatum }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Overrides the ausleihen method to support DVD-\/specific borrowing logic. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em person} & The person who is borrowing the \mbox{\hyperlink{classDVD}{DVD}}. \\
+\hline
+{\em ausleihdatum} & The date when the \mbox{\hyperlink{classDVD}{DVD}} is borrowed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the \mbox{\hyperlink{classDVD}{DVD}} can be borrowed, false otherwise. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classMedium_a98261c5da2a63906799f298cbbcd66b8}{Medium}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{DVD_8h}{DVD.\+h}}\item 
+DVD.\+cpp\end{DoxyCompactItemize}

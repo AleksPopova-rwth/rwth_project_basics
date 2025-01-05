@@ -1,0 +1,4 @@
+<map id="DVD" name="DVD">
+<area shape="rect" id="node1" title="Represents a DVD, inheriting from the Medium class." alt="" coords="17,80,68,107"/>
+<area shape="rect" id="node2" href="$classMedium.html" title="Base class for all types of media." alt="" coords="5,5,80,32"/>
+</map>

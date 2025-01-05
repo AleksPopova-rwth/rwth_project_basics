@@ -1,0 +1,87 @@
+\hypertarget{classPerson}{}\doxysection{Person Class Reference}
+\label{classPerson}\index{Person@{Person}}
+
+
+Class representing a person.  
+
+
+
+
+{\ttfamily \#include $<$Person.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPerson_a6e74d12bd0c913a004fd427dfc15cf43}{Person}} (std\+::string init\+Name=\char`\"{}\char`\"{}, \mbox{\hyperlink{classDatum}{Datum}} init\+Geburtsdatum=\mbox{\hyperlink{classDatum}{Datum}}())
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classPerson}{Person}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classPerson_a700ffd693321c5fe6880262acf43d4da}\label{classPerson_a700ffd693321c5fe6880262acf43d4da}} 
+\mbox{\hyperlink{classPerson_a700ffd693321c5fe6880262acf43d4da}{$\sim$\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{classPerson}{Person}} class. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classPerson_ab20f096fdfd5201818c45754af4c3e3b}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Accessor function to retrieve the name of the person. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum}{Datum}} \mbox{\hyperlink{classPerson_af3ba3a3eb3aa8d22921d99a680dcb963}{get\+Geburtsdatum}} () const
+\begin{DoxyCompactList}\small\item\em Accessor function to retrieve the date of birth of the person. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing a person. 
+
+This class stores all relevant information about a person that is relevant for the library, including\+:
+\begin{DoxyItemize}
+\item Name
+\item Date of birth 
+\end{DoxyItemize}
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPerson_a6e74d12bd0c913a004fd427dfc15cf43}\label{classPerson_a6e74d12bd0c913a004fd427dfc15cf43}} 
+\index{Person@{Person}!Person@{Person}}
+\index{Person@{Person}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{Person()}{Person()}}
+{\footnotesize\ttfamily Person\+::\+Person (\begin{DoxyParamCaption}\item[{std\+::string}]{init\+Name = {\ttfamily \char`\"{}\char`\"{}},  }\item[{\mbox{\hyperlink{classDatum}{Datum}}}]{init\+Geburtsdatum = {\ttfamily \mbox{\hyperlink{classDatum}{Datum}}()} }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classPerson}{Person}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em init\+Name} & The name of the person. Default is an empty string. \\
+\hline
+{\em init\+Geburtsdatum} & The date of birth of the person. Default is the current date. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPerson_af3ba3a3eb3aa8d22921d99a680dcb963}\label{classPerson_af3ba3a3eb3aa8d22921d99a680dcb963}} 
+\index{Person@{Person}!getGeburtsdatum@{getGeburtsdatum}}
+\index{getGeburtsdatum@{getGeburtsdatum}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getGeburtsdatum()}{getGeburtsdatum()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDatum}{Datum}} Person\+::get\+Geburtsdatum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accessor function to retrieve the date of birth of the person. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classDatum}{Datum}} The date of birth of the person. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPerson_ab20f096fdfd5201818c45754af4c3e3b}\label{classPerson_ab20f096fdfd5201818c45754af4c3e3b}} 
+\index{Person@{Person}!getName@{getName}}
+\index{getName@{getName}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Person\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accessor function to retrieve the name of the person. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string The name of the person. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Person_8h}{Person.\+h}}\item 
+\mbox{\hyperlink{Person_8cpp}{Person.\+cpp}}\end{DoxyCompactItemize}

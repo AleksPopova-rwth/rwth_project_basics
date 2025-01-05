@@ -1,0 +1,171 @@
+\hypertarget{classMedium}{}\doxysection{Medium Class Reference}
+\label{classMedium}\index{Medium@{Medium}}
+
+
+Base class for all types of media.  
+
+
+
+
+{\ttfamily \#include $<$Medium.\+h$>$}
+
+
+
+Inheritance diagram for Medium\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{classMedium__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Medium\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{classMedium__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMedium_aa8bd867d2e3644022a117433e3321f18}{Medium}} (std\+::string init\+Titel)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classMedium}{Medium}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMedium_a5a6d7b0885044fc74be443f235bfbcdf}\label{classMedium_a5a6d7b0885044fc74be443f235bfbcdf}} 
+virtual \mbox{\hyperlink{classMedium_a5a6d7b0885044fc74be443f235bfbcdf}{$\sim$\+Medium}} ()
+\begin{DoxyCompactList}\small\item\em Virtual destructor for the \mbox{\hyperlink{classMedium}{Medium}} class. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classMedium_a4ef72a6165d29497d26d0825a0f3b486}{ausgabe}} () const =0
+\begin{DoxyCompactList}\small\item\em Output function for displaying information about the medium. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classMedium_a98261c5da2a63906799f298cbbcd66b8}{ausleihen}} (\mbox{\hyperlink{classPerson}{Person}} person, \mbox{\hyperlink{classDatum}{Datum}} ausleihdatum)
+\begin{DoxyCompactList}\small\item\em Function to borrow the medium. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMedium_a243e7659e4c9596061a5d5805ae271c4}\label{classMedium_a243e7659e4c9596061a5d5805ae271c4}} 
+void \mbox{\hyperlink{classMedium_a243e7659e4c9596061a5d5805ae271c4}{zurueckgeben}} ()
+\begin{DoxyCompactList}\small\item\em Function to return the medium to the library. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classMedium_a7bc65e286218957af48211f6ace30789}{get\+ID}} ()
+\begin{DoxyCompactList}\small\item\em Function to retrieve the ID of the medium. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classMedium_a8a9d5aa7e65f0c2fb793ad7108947331}{get\+Titel}} () const
+\begin{DoxyCompactList}\small\item\em Function to retrieve the title of the medium. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMedium_a5e72a311f06810444cde614ddbc4b31f}\label{classMedium_a5e72a311f06810444cde614ddbc4b31f}} 
+unsigned int \mbox{\hyperlink{classMedium_a5e72a311f06810444cde614ddbc4b31f}{ID}}
+\begin{DoxyCompactList}\small\item\em Unique ID of the medium. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMedium_ab76783269f8b09141d7b2168b008429d}\label{classMedium_ab76783269f8b09141d7b2168b008429d}} 
+std\+::string \mbox{\hyperlink{classMedium_ab76783269f8b09141d7b2168b008429d}{titel}}
+\begin{DoxyCompactList}\small\item\em Title of the medium. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMedium_a41d79c1b3b57a54c8b372a8e36f1b5c9}\label{classMedium_a41d79c1b3b57a54c8b372a8e36f1b5c9}} 
+bool \mbox{\hyperlink{classMedium_a41d79c1b3b57a54c8b372a8e36f1b5c9}{status}}
+\begin{DoxyCompactList}\small\item\em Status of the medium (true\+: borrowed, false\+: not borrowed). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMedium_af7a2605566e899641b075f51893948c7}\label{classMedium_af7a2605566e899641b075f51893948c7}} 
+\mbox{\hyperlink{classDatum}{Datum}} \mbox{\hyperlink{classMedium_af7a2605566e899641b075f51893948c7}{datum\+Ausgeliehen}}
+\begin{DoxyCompactList}\small\item\em Date since the medium was borrowed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMedium_a2dcfa7b252fea996b5cb6551f735f252}\label{classMedium_a2dcfa7b252fea996b5cb6551f735f252}} 
+\mbox{\hyperlink{classPerson}{Person}} \mbox{\hyperlink{classMedium_a2dcfa7b252fea996b5cb6551f735f252}{person\+Ausgeliehen}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classPerson}{Person}} who borrowed the medium. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMedium_ac48d0988284d67e8bdf54b8fab9ebbe8}\label{classMedium_ac48d0988284d67e8bdf54b8fab9ebbe8}} 
+static unsigned int \mbox{\hyperlink{classMedium_ac48d0988284d67e8bdf54b8fab9ebbe8}{current\+ID}} = 1
+\begin{DoxyCompactList}\small\item\em Static variable to generate unique IDs for each medium. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for all types of media. 
+
+This class serves as a base class for objects that describe various types of media, such as books or DVDs. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMedium_aa8bd867d2e3644022a117433e3321f18}\label{classMedium_aa8bd867d2e3644022a117433e3321f18}} 
+\index{Medium@{Medium}!Medium@{Medium}}
+\index{Medium@{Medium}!Medium@{Medium}}
+\doxysubsubsection{\texorpdfstring{Medium()}{Medium()}}
+{\footnotesize\ttfamily Medium\+::\+Medium (\begin{DoxyParamCaption}\item[{std\+::string}]{init\+Titel }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classMedium}{Medium}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em init\+Titel} & The title of the medium. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMedium_a4ef72a6165d29497d26d0825a0f3b486}\label{classMedium_a4ef72a6165d29497d26d0825a0f3b486}} 
+\index{Medium@{Medium}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!Medium@{Medium}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily void Medium\+::ausgabe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Output function for displaying information about the medium. 
+
+This function prints all information about the medium to the console. 
+
+Implemented in \mbox{\hyperlink{classMagazin_abca2107906d4e9918a5b4083ab564ba6}{Magazin}}, \mbox{\hyperlink{classDVD_a9ccced7d4e90a56955104797d1751c78}{DVD}}, and \mbox{\hyperlink{classBuch_a346e8acd888f5293dc3ec80593443a4d}{Buch}}.
+
+\mbox{\Hypertarget{classMedium_a98261c5da2a63906799f298cbbcd66b8}\label{classMedium_a98261c5da2a63906799f298cbbcd66b8}} 
+\index{Medium@{Medium}!ausleihen@{ausleihen}}
+\index{ausleihen@{ausleihen}!Medium@{Medium}}
+\doxysubsubsection{\texorpdfstring{ausleihen()}{ausleihen()}}
+{\footnotesize\ttfamily bool Medium\+::ausleihen (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}}}]{person,  }\item[{\mbox{\hyperlink{classDatum}{Datum}}}]{ausleihdatum }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Function to borrow the medium. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em person} & The person who wants to borrow the medium. \\
+\hline
+{\em ausleihdatum} & The date when the medium is borrowed.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if borrowing restrictions are met and the medium can be borrowed, false otherwise. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classMagazin_af64fe3e3431aa4493e1b5d701696a9e1}{Magazin}}, and \mbox{\hyperlink{classDVD_a70c30e0b6b96df84fdaae5a8cb069ef4}{DVD}}.
+
+\mbox{\Hypertarget{classMedium_a7bc65e286218957af48211f6ace30789}\label{classMedium_a7bc65e286218957af48211f6ace30789}} 
+\index{Medium@{Medium}!getID@{getID}}
+\index{getID@{getID}!Medium@{Medium}}
+\doxysubsubsection{\texorpdfstring{getID()}{getID()}}
+{\footnotesize\ttfamily unsigned int Medium\+::get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to retrieve the ID of the medium. 
+
+\begin{DoxyReturn}{Returns}
+The ID of the medium. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classMedium_a8a9d5aa7e65f0c2fb793ad7108947331}\label{classMedium_a8a9d5aa7e65f0c2fb793ad7108947331}} 
+\index{Medium@{Medium}!getTitel@{getTitel}}
+\index{getTitel@{getTitel}!Medium@{Medium}}
+\doxysubsubsection{\texorpdfstring{getTitel()}{getTitel()}}
+{\footnotesize\ttfamily std\+::string Medium\+::get\+Titel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Function to retrieve the title of the medium. 
+
+\begin{DoxyReturn}{Returns}
+The title of the medium. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Medium_8h}{Medium.\+h}}\item 
+\mbox{\hyperlink{Medium_8cpp}{Medium.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,294 @@
+\hypertarget{classStudent}{}\doxysection{Student Class Reference}
+\label{classStudent}\index{Student@{Student}}
+
+
+Repräsentiert einen Studenten mit Matrikelnummer, Name, Geburtstag und Adresse.  
+
+
+
+
+{\ttfamily \#include $<$Student.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classStudent_af9168cedbfa5565cf0b20c1a9d3f5c9d}\label{classStudent_af9168cedbfa5565cf0b20c1a9d3f5c9d}} 
+\mbox{\hyperlink{classStudent_af9168cedbfa5565cf0b20c1a9d3f5c9d}{Student}} ()
+\begin{DoxyCompactList}\small\item\em Standardkonstruktor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classStudent_ad0924c430eca591dad62412b9ddb50bf}{Student}} (unsigned int mat\+Nr, std\+::string name, std\+::string geburtstag, std\+::string address)
+\begin{DoxyCompactList}\small\item\em Konstruktor mit Parametern. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classStudent_a4b8bf48bc0e35673793210bd03cb4f23}{get\+Mat\+Nr}} () const
+\begin{DoxyCompactList}\small\item\em Gibt die Matrikelnummer zurück. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classStudent_af2b671e64af8a240f59652414a8b8047}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gibt den Namen zurück. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classStudent_a7a5a2f32e4fbc93395073157e3ae035f}{get\+Geburtstag}} () const
+\begin{DoxyCompactList}\small\item\em Gibt den Geburtstag zurück. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classStudent_aec9e550c530f685630942bf4140bfb73}{get\+Adresse}} () const
+\begin{DoxyCompactList}\small\item\em Gibt die Adresse zurück. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStudent_a5560ff9c5da47ba8067cb37035e45e16}\label{classStudent_a5560ff9c5da47ba8067cb37035e45e16}} 
+void \mbox{\hyperlink{classStudent_a5560ff9c5da47ba8067cb37035e45e16}{ausgabe}} () const
+\begin{DoxyCompactList}\small\item\em Gibt die Informationen des Studenten auf der Konsole aus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStudent_a09849ca5f15c9b150e84d05a99aaa516}{set\+Mat\+Nr}} (unsigned int mat\+Nr)
+\begin{DoxyCompactList}\small\item\em Setzt die Matrikelnummer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStudent_a489c963162c2b5798154a3217815cfc8}{set\+Name}} (const std\+::string \&name)
+\begin{DoxyCompactList}\small\item\em Setzt den Namen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStudent_ac7c50ff7218af053aa45923692d2fc0d}{set\+Geburtstag}} (const std\+::string \&geburtstag)
+\begin{DoxyCompactList}\small\item\em Setzt den Geburtstag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStudent_a6a2937c40d6e8ad836f0b525428f462a}{set\+Adresse}} (const std\+::string \&adresse)
+\begin{DoxyCompactList}\small\item\em Setzt die Adresse. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classStudent_a44b0dc0efbc95f687706f28363e897db}{operator$<$}} (const \mbox{\hyperlink{classStudent}{Student}} \&other) const
+\begin{DoxyCompactList}\small\item\em Vergleichsoperator \textquotesingle{}$<$\textquotesingle{}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classStudent_a8ed21df54035f4067179661924875aac}{operator$>$}} (const \mbox{\hyperlink{classStudent}{Student}} \&other) const
+\begin{DoxyCompactList}\small\item\em Vergleichsoperator \textquotesingle{}$>$\textquotesingle{}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classStudent_a8f7c31ed0e331481ac58f12b2e822047}{operator==}} (const \mbox{\hyperlink{classStudent}{Student}} \&other) const
+\begin{DoxyCompactList}\small\item\em Vergleichsoperator \textquotesingle{}==\textquotesingle{}. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{classStudent_a2da5aedb4fdef5809ea3ddc6f0bdab69}{ausgabe}} (std\+::ostream \&out) const
+\begin{DoxyCompactList}\small\item\em Ausgabeoperator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{classStudent_ae11976093b327226939106630b15c302}{operator$<$$<$}} (std\+::ostream \&\mbox{\hyperlink{classStudent_a5560ff9c5da47ba8067cb37035e45e16}{ausgabe}}, const \mbox{\hyperlink{classStudent}{Student}} \&student)
+\begin{DoxyCompactList}\small\item\em Freundfunktion zur Überladung des Ausgabeoperators. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Repräsentiert einen Studenten mit Matrikelnummer, Name, Geburtstag und Adresse. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classStudent_ad0924c430eca591dad62412b9ddb50bf}\label{classStudent_ad0924c430eca591dad62412b9ddb50bf}} 
+\index{Student@{Student}!Student@{Student}}
+\index{Student@{Student}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{Student()}{Student()}}
+{\footnotesize\ttfamily Student\+::\+Student (\begin{DoxyParamCaption}\item[{unsigned int}]{mat\+Nr,  }\item[{std\+::string}]{name,  }\item[{std\+::string}]{geburtstag,  }\item[{std\+::string}]{address }\end{DoxyParamCaption})}
+
+
+
+Konstruktor mit Parametern. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mat\+Nr} & Matrikelnummer des Studenten. \\
+\hline
+{\em name} & Name des Studenten. \\
+\hline
+{\em geburtstag} & Geburtstag des Studenten. \\
+\hline
+{\em address} & Adresse des Studenten. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classStudent_a2da5aedb4fdef5809ea3ddc6f0bdab69}\label{classStudent_a2da5aedb4fdef5809ea3ddc6f0bdab69}} 
+\index{Student@{Student}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily std\+::ostream \& Student\+::ausgabe (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption}) const}
+
+
+
+Ausgabeoperator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & Ausgabestream. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Referenz auf den Ausgabestream. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStudent_aec9e550c530f685630942bf4140bfb73}\label{classStudent_aec9e550c530f685630942bf4140bfb73}} 
+\index{Student@{Student}!getAdresse@{getAdresse}}
+\index{getAdresse@{getAdresse}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{getAdresse()}{getAdresse()}}
+{\footnotesize\ttfamily std\+::string Student\+::get\+Adresse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gibt die Adresse zurück. 
+
+\begin{DoxyReturn}{Returns}
+Adresse des Studenten. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStudent_a7a5a2f32e4fbc93395073157e3ae035f}\label{classStudent_a7a5a2f32e4fbc93395073157e3ae035f}} 
+\index{Student@{Student}!getGeburtstag@{getGeburtstag}}
+\index{getGeburtstag@{getGeburtstag}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{getGeburtstag()}{getGeburtstag()}}
+{\footnotesize\ttfamily std\+::string Student\+::get\+Geburtstag (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gibt den Geburtstag zurück. 
+
+\begin{DoxyReturn}{Returns}
+Geburtstag des Studenten. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStudent_a4b8bf48bc0e35673793210bd03cb4f23}\label{classStudent_a4b8bf48bc0e35673793210bd03cb4f23}} 
+\index{Student@{Student}!getMatNr@{getMatNr}}
+\index{getMatNr@{getMatNr}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{getMatNr()}{getMatNr()}}
+{\footnotesize\ttfamily unsigned int Student\+::get\+Mat\+Nr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gibt die Matrikelnummer zurück. 
+
+\begin{DoxyReturn}{Returns}
+Matrikelnummer des Studenten. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStudent_af2b671e64af8a240f59652414a8b8047}\label{classStudent_af2b671e64af8a240f59652414a8b8047}} 
+\index{Student@{Student}!getName@{getName}}
+\index{getName@{getName}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Student\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gibt den Namen zurück. 
+
+\begin{DoxyReturn}{Returns}
+Name des Studenten. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStudent_a44b0dc0efbc95f687706f28363e897db}\label{classStudent_a44b0dc0efbc95f687706f28363e897db}} 
+\index{Student@{Student}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool Student\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classStudent}{Student}} \&}]{other }\end{DoxyParamCaption}) const}
+
+
+
+Vergleichsoperator \textquotesingle{}$<$\textquotesingle{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Ein anderer \mbox{\hyperlink{classStudent}{Student}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn die Matrikelnummer des aktuellen Studenten kleiner ist als die des anderen. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStudent_a8f7c31ed0e331481ac58f12b2e822047}\label{classStudent_a8f7c31ed0e331481ac58f12b2e822047}} 
+\index{Student@{Student}!operator==@{operator==}}
+\index{operator==@{operator==}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Student\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classStudent}{Student}} \&}]{other }\end{DoxyParamCaption}) const}
+
+
+
+Vergleichsoperator \textquotesingle{}==\textquotesingle{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Ein anderer \mbox{\hyperlink{classStudent}{Student}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn die Matrikelnummer des aktuellen Studenten gleich der des anderen ist. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStudent_a8ed21df54035f4067179661924875aac}\label{classStudent_a8ed21df54035f4067179661924875aac}} 
+\index{Student@{Student}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily bool Student\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classStudent}{Student}} \&}]{other }\end{DoxyParamCaption}) const}
+
+
+
+Vergleichsoperator \textquotesingle{}$>$\textquotesingle{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Ein anderer \mbox{\hyperlink{classStudent}{Student}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn die Matrikelnummer des aktuellen Studenten größer ist als die des anderen. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStudent_a6a2937c40d6e8ad836f0b525428f462a}\label{classStudent_a6a2937c40d6e8ad836f0b525428f462a}} 
+\index{Student@{Student}!setAdresse@{setAdresse}}
+\index{setAdresse@{setAdresse}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{setAdresse()}{setAdresse()}}
+{\footnotesize\ttfamily void Student\+::set\+Adresse (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{adresse }\end{DoxyParamCaption})}
+
+
+
+Setzt die Adresse. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em adresse} & Neue Adresse. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStudent_ac7c50ff7218af053aa45923692d2fc0d}\label{classStudent_ac7c50ff7218af053aa45923692d2fc0d}} 
+\index{Student@{Student}!setGeburtstag@{setGeburtstag}}
+\index{setGeburtstag@{setGeburtstag}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{setGeburtstag()}{setGeburtstag()}}
+{\footnotesize\ttfamily void Student\+::set\+Geburtstag (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{geburtstag }\end{DoxyParamCaption})}
+
+
+
+Setzt den Geburtstag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em geburtstag} & Neuer Geburtstag. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStudent_a09849ca5f15c9b150e84d05a99aaa516}\label{classStudent_a09849ca5f15c9b150e84d05a99aaa516}} 
+\index{Student@{Student}!setMatNr@{setMatNr}}
+\index{setMatNr@{setMatNr}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{setMatNr()}{setMatNr()}}
+{\footnotesize\ttfamily void Student\+::set\+Mat\+Nr (\begin{DoxyParamCaption}\item[{unsigned int}]{mat\+Nr }\end{DoxyParamCaption})}
+
+
+
+Setzt die Matrikelnummer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mat\+Nr} & Neue Matrikelnummer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStudent_a489c963162c2b5798154a3217815cfc8}\label{classStudent_a489c963162c2b5798154a3217815cfc8}} 
+\index{Student@{Student}!setName@{setName}}
+\index{setName@{setName}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void Student\+::set\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Setzt den Namen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Neuer Name. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classStudent_ae11976093b327226939106630b15c302}\label{classStudent_ae11976093b327226939106630b15c302}} 
+\index{Student@{Student}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{ausgabe,  }\item[{const \mbox{\hyperlink{classStudent}{Student}} \&}]{student }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Freundfunktion zur Überladung des Ausgabeoperators. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ausgabe} & Ausgabestream. \\
+\hline
+{\em student} & Der auszugebende \mbox{\hyperlink{classStudent}{Student}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Referenz auf den Ausgabestream. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Student_8h}{Student.\+h}}\item 
+\mbox{\hyperlink{Student_8cpp}{Student.\+cpp}}\end{DoxyCompactItemize}
