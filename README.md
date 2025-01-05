@@ -1,4 +1,4 @@
-# RWTH Projekt Basics
+# RWTH Project. Basics of Programming
 
 Welcome to the **RWTH Projekt Basics** repository!
 
@@ -40,7 +40,7 @@ To work with this project, ensure you have the following tools installed:
 2. Navigate to the project directory:
 
    ```bash
-   cd rwth_projekt_basics
+   cd rwth_project_basics
    ```
 
 3. Follow the specific instructions in the repository for your project setup.
