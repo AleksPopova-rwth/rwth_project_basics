@@ -5,11 +5,8 @@ Welcome to the **RWTH Projekt Basics** repository!
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
 - [Folder Structure](#folder-structure)
 - [License](#license)
 
@@ -17,22 +14,21 @@ Welcome to the **RWTH Projekt Basics** repository!
 
 This repository is the project of the second semester of CE in RWTH Aachen.
 
-## Features
+## Prerequisites
 
-- Pre-configured project structure
-- Basic templates for documentation
-- Example configurations for common tools and libraries
-- Scripts to automate repetitive tasks
+To work with this project, ensure you have the following tools installed:
 
-## Getting Started
+- [Git](https://git-scm.com/)  
+  Used for version control and managing the project repository.
 
-### Prerequisites
+- [Qt Creator](https://www.qt.io/product/development-tools)  
+  Recommended for development when working with Qt-based projects. It provides excellent support for Qt libraries and GUI development.
 
-Ensure you have the following installed on your system:
+- [Eclipse](https://www.eclipse.org/)  
+  An alternative IDE for development, suitable for C++ and embedded programming.
 
-- [Git](https://git-scm.com/)
-- [Python 3](https://www.python.org/) (optional, for some scripts)
-- A code editor or IDE (e.g., [VS Code](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm/))
+- [CMake](https://cmake.org/)  
+  Used to configure the build system.
 
 ### Installation
 
