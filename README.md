@@ -8,7 +8,6 @@ Welcome to the **RWTH Projekt Basics** repository!
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Folder Structure](#folder-structure)
-- [License](#license)
 
 ## Introduction
 
@@ -58,10 +57,5 @@ rwth_projekt_basics/
 └── README.md           # Repository overview (this file)
 ```
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project as per the terms of the license.
-
----
 
 Thank you for using RWTH Projekt Basics! For any questions or suggestions, feel free to reach out by opening an issue in this repository.
